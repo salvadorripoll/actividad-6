@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvador Ripoll</title>
+    <link rel="stylesheet" href="Actividad 3.3.1 estilos.css">
+</head>
+
+<body>
+    <h1>Salvador Ripoll</h1>
+    <p>Mi objetivo es crecer en diferentes áreas laborales, para poder nutrirme de varios aprendizajes, pudiendo aplicar
+        el conocimiento adquirido en otros lugares y empleando ideas creativas pero a su vez eficaces. A su vez y
+        gracias a mi desempeño en el ámbito musical, he desarrollado experiencia en el liderazgo de grupos humanos.</p>
+    
+    <ul id="listLinkFirstId">
+        <li><a href="#experiencia">Experiencia profesional</a></li>
+        <li><a href="#habilidades">Habilidades y conocimientos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#perfiles">Perfíles sociales</a></li>
+        <li><a href="#contactar">Contactar</a></li>
+    </ul>
+    
+    <h1 id="experiencia">Experiencia profesional</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Empresa / Organización</th>
+                <th>Cargo</th>
+                <th>Localización</th>
+                <th>Desde-hasta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="topList, oddTable">Tata Consultancy Services</td>
+                <td class="topList, oddTable">Agente de Service Desk</td>
+                <td class="topList, oddTable">Montevideo (Uruguay)</td>
+                <td class="topList, oddTable">Febrero 2023 - Actualidad</td>
+            </tr>
+            <tr>
+                <td class="botList, evenTable">Alorica</td>
+                <td class="botList, evenTable">Agente de Customer Service</td>
+                <td class="botList, evenTable">Montevideo (Uruguay)</td>
+                <td class="botList, evenTable">Junio 2021 - Febrero 2023</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    <h1 id="habilidades">Habilidades y conocimientos</h1>
+    <table>
+            <tr>
+            <td class="topList, oddTable">Desarrollo web:</b> HTML5, CSS3, JavaScript, Node.js, JSON.</td>
+        </tr>
+        <tr>
+            <td class="midOneList, evenTable">Diseño de Sonido:</b>Grabación, edición, mezcla y mastering de tracks
+                musicales; FOH y monitoreo en vivo; Foley y Post Producción de Sonido para productos Audiovisuales;
+                Operador de Radio.</td>
+        </tr>
+        <tr>
+            <td class="midTwoList, oddTable">Gestion:</b> Gestión de comunidades y organizacion de eventos,
+                gestion
+                de equipos, etc.</td>
+        </tr>
+        <tr>
+            <td class="botList, evenTable">Community managing:</b> email marketing, redes sociales.</td>
+        </tr>
+    </table>
+
+    
+    <h1 id="educacion">Educación</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Entidad</th>
+                <th>Promoción</th>
+            </tr>
+        </thead>
+        <tr>
+            <td class="topList, oddTable">Desarrollo web</td>
+            <td class="topList, oddTable">Plan ceibal (JaP)</td>
+            <td class="topList, oddTable">En curso</td>
+        </tr>
+        <tr>
+            <td class="botList, evenTable">Tecnicatura en Diseño de Sonido</td>
+            <td class="botList, evenTable">Instituto Bios</td>
+            <td class="botList, evenTable">2017</td>
+        </tr>
+    </table>
+    
+
+    <h1 id="perfiles">Perfiles sociales</h1>
+
+    <p>También puedes encontrarme en:</p>
+
+    <ul class="socialsLinks">
+        <a href="https://github.com/salvadorripoll"><input class="socialsButton" type="image"
+                src="GitHub-logo.png"></a>
+        <a href="https://www.linkedin.com/in/salvador-ripoll-rodriguez-5bba51144/"><input class="socialsButton"
+                type="image" src="LinkedIn_logo.png">
+    </ul>
+    
+
+    <section>
+        <h1 id="contactar">Contactar</h1>
+        <form id="contacto">
+            <label for="para"> Para:
+                <input type="text" name="Para" type="text" required>
+            </label>
+            <br>
+            <label for="lang">Temática:</label>
+            <select name="Temática" id="lang">
+                <option value="--Elige un tema--">--Elige un tema--</option>
+                <option value="Consulta">Consulta</option>
+                <option value="Propuesta">Propuesta</option>
+                <option value="Reporte">Reporte</option>
+                <option value="Otro">Otro</option>
+            </select>
+            </label>
+            <br>
+            <label for="para">Asunto:
+                <input id="Asunto" name="Asunto" type="text" required>
+            </label>
+            <br>
+            <label for="story">Cuerpo:</label>
+            <textarea id="story" name="Cuerpo" rows="5" cols="33"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+body {
+    background-color:  rgb(255, 230, 205);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#listLinkFirstId {
+    margin-left: 42%;
+}
+
+li .linkFirst {
+    color: blue;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+thead tr th {
+    border-style: solid;
+}
+
+table tbody tr td.oddTable {
+    background-color: rgb(195, 184, 255);
+}
+
+table tbody tr td.evenTable {
+    background-color: rgb(211, 203, 255);
+}
+
+.socialsButton {
+    width: 2cm;
+}
+
+ul.socialsLinks {
+    text-align: center;
+}
+
+form#contacto {
+    text-align: center;
+}
